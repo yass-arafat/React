@@ -26,6 +26,7 @@ class EventBind extends Component {
   render() {
     return (
       <div>
+          <div/>
         <div>{this.state.message}</div>
 
         {/* Approach 1 Not Efficient */}

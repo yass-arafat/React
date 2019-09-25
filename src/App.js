@@ -9,6 +9,8 @@ import Destructure from './components/Destructuring'
 import FunctionClick from './components/EventHandler'
 import EventHandler from './components/EventHandler';
 import EventBind from './components/EventBind';
+import ParentComponent from './components/ParentComponent';
+import IfElse from './components/IfElse';
 
 function App() {
   return (
@@ -43,9 +45,10 @@ function App() {
 
       {/* <Destructure name = "chris evans" nickName = "Captain America"></Destructure> */}
       {/* <EventHandler /> */}
-        {/* <ClassClick /> */}
-        <EventBind />
-        {/* <ParentComponent /> */}
+      {/* <ClassClick /> */}
+      {/* <EventBind /> */}
+      {/* <ParentComponent /> */}
+      <IfElse/>
     </div>
   );
 }
